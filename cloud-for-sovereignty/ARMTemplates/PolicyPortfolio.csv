@@ -1,0 +1,12 @@
+name,type,category,armTemplateFileName
+Italian National Cybersecurity Agency (ACN) Cloud Service Qualification Initiative A2 1 Ordinari,custom,Regulatory Compliance,https://raw.githubusercontent.com/Azure/industry-policy-portfolio/refs/heads/main/cloud-for-sovereignty/ARMTemplates/Initiative A2_1_Ordinari.json
+Italian National Cybersecurity Agency (ACN) Cloud Service Qualification Initiative A2 2 Critici,custom,Regulatory Compliance,https://raw.githubusercontent.com/Azure/industry-policy-portfolio/refs/heads/main/cloud-for-sovereignty/ARMTemplates/Initiative A2_2_Critici.json
+Italian National Cybersecurity Agency (ACN) Cloud Service Qualification Initiative B2 1 Ordinari,custom,Regulatory Compliance,https://raw.githubusercontent.com/Azure/industry-policy-portfolio/refs/heads/main/cloud-for-sovereignty/ARMTemplates/Initiative B2_1_Ordinari.json
+Italian National Cybersecurity Agency (ACN) Cloud Service Qualification Initiative B2 2 Critici,custom,Regulatory Compliance,https://raw.githubusercontent.com/Azure/industry-policy-portfolio/refs/heads/main/cloud-for-sovereignty/ARMTemplates/Initiative B2_2_Critici.json
+Netherland BIO Cloud Theme (Baseline Informatiebeveiliging Overheid),builtin,Regulatory Compliance,null
+Cloud Security Alliance Cloud Controls v4,custom,Regulatory Compliance,https://raw.githubusercontent.com/Azure/industry-policy-portfolio/refs/heads/main/cloud-for-sovereignty/ARMTemplates/Cloud_Security_Alliance_Cloud_Controls_v4.json
+Spain Esquema Nacional de Seguridad (ENS) High-Level Security Measures,builtin,Regulatory Compliance,null
+New Zealand ISM,builtin,Regulatory Compliance,null
+Network and Information Security (NIS) Directive,custom,Regulatory Compliance,https://raw.githubusercontent.com/Azure/industry-policy-portfolio/refs/heads/main/cloud-for-sovereignty/ARMTemplates/Network_and_Information_Security_Directive_2.json
+Sovereignty Baseline - Confidential Policies,builtin,Regulatory Compliance,null
+Sovereignty Baseline - Global Policies,builtin,Regulatory Compliance,null
