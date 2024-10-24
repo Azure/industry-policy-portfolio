@@ -1,0 +1,91 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-08-01/managementGroupDeploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "metadata": {
+    "_generator": {
+      "name": "bicep",
+      "version": "0.30.23.60470",
+      "templateHash": "13788550555298508286"
+    }
+  },
+  "variables": {
+    "$fxv#0": {
+      "properties": {
+        "displayName": "SD 01-Allowed-Services",
+        "policyType": "Custom",
+        "description": "The customer must limit the deployable services to an allowed set",
+        "metadata": {
+          "category": "Regulatory Compliance",
+          "version": "1.0.0-preview",
+          "preview": true
+        },
+        "version": "1.0.0",
+        "policyDefinitionGroups": [
+          {
+            "name": "SD_01_Allowed_Services_Allowed_Services_SD_01",
+            "category": "Allowed Services",
+            "description": "Allowed resource types",
+            "additionalMetadataId": "/providers/Microsoft.PolicyInsights/policyMetadata/SD_01_Allowed_Services_Allowed_Services_SD_01"
+          }
+        ],
+        "parameters": {
+          "listOfResourceTypesAllowed-1": {
+            "type": "Array",
+            "metadata": {
+              "description": "The list of resource types that can be deployed.",
+              "displayName": "Allowed resource types",
+              "strongType": "resourceTypes"
+            }
+          },
+          "listOfAllowedSKUs-1": {
+            "type": "Array",
+            "metadata": {
+              "description": "The list of size SKUs that can be specified for virtual machines.",
+              "displayName": "Allowed Size SKUs",
+              "strongType": "VMSKUs"
+            }
+          }
+        },
+        "policyDefinitions": [
+          {
+            "policyDefinitionReferenceId": "Allowed resource types",
+            "groupNames": [
+              "SD_01_Allowed_Services_Allowed_Services_SD_01"
+            ],
+            "parameters": {
+              "listOfResourceTypesAllowed": {
+                "value": "[[parameters('listOfResourceTypesAllowed-1')]"
+              }
+            },
+            "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/a08ec900-254a-4555-9bf5-e42af04b5c5c",
+            "definitionVersion": "1.*.*"
+          },
+          {
+            "policyDefinitionReferenceId": "Allowed virtual machine size SKUs",
+            "groupNames": [
+              "SD_01_Allowed_Services_Allowed_Services_SD_01"
+            ],
+            "parameters": {
+              "listOfAllowedSKUs": {
+                "value": "[[parameters('listOfAllowedSKUs-1')]"
+              }
+            },
+            "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/cccc23c7-8427-4f53-ad12-b6a63eb452b3",
+            "definitionVersion": "1.*.*"
+          }
+        ]
+      },
+      "id": "/providers/Microsoft.Authorization/policySetDefinitions/b66bb595-cb80-4a38-bb24-4ce4ca07d9e4",
+      "name": "b66bb595-cb80-4a38-bb24-4ce4ca07d9e4"
+    },
+    "policySet": "[variables('$fxv#0')]"
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Authorization/policySetDefinitions",
+      "apiVersion": "2023-04-01",
+      "name": "[variables('policySet').name]",
+      "properties": "[variables('policySet').properties]"
+    }
+  ]
+}
