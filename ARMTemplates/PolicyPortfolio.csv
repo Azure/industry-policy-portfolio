@@ -1,0 +1,17 @@
+name,type,category,armTemplateFileName
+Financial Services TR-01-Logging,builtin,regulatoryCompliance,null
+Financial Services RE-01-Zone-Replication,builtin,regulatoryCompliance,null
+Financial Services SD-01-Allowed-Services,custom,regulatoryCompliance,https://raw.githubusercontent.com/Azure/industry-policy-portfolio/refs/heads/main/ARMTemplates/SD-01-Allowed-Services.alz_policy_set_definition.json
+Financial Services SO-01-Data-Residency,custom,regulatoryCompliance,https://raw.githubusercontent.com/Azure/industry-policy-portfolio/refs/heads/main/ARMTemplates/SO-01-Data-Residency.alz_policy_set_definition.json
+Financial Services SO-04-CMK,custom,regulatoryCompliance,https://raw.githubusercontent.com/Azure/industry-policy-portfolio/refs/heads/main/ARMTemplates/SO-04-CMK.alz_policy_set_definition.json
+ACN - Italian National Cybersecurity Agency Cloud Service Qualification Initiative A2 1 Ordinari,custom,regulatoryCompliance,https://raw.githubusercontent.com/Azure/industry-policy-portfolio/refs/heads/main/ARMTemplates/Initiative A2_1_Ordinari.json
+ACN - Italian National Cybersecurity Agency Cloud Service Qualification Initiative A2 2 Critici,custom,regulatoryCompliance,https://raw.githubusercontent.com/Azure/industry-policy-portfolio/refs/heads/main/ARMTemplates/Initiative A2_2_Critici.json
+ACN - Italian National Cybersecurity Agency Cloud Service Qualification Initiative B2 1 Ordinari,custom,regulatoryCompliance,https://raw.githubusercontent.com/Azure/industry-policy-portfolio/refs/heads/main/ARMTemplates/Initiative B2_1_Ordinari.json
+ACN - Italian National Cybersecurity Agency Cloud Service Qualification Initiative B2 2 Critici,custom,regulatoryCompliance,https://raw.githubusercontent.com/Azure/industry-policy-portfolio/refs/heads/main/ARMTemplates/Initiative B2_2_Critici.json
+BIO - Netherlands Cloud Theme (Baseline Informatiebeveiliging Overheid),builtin,regulatoryCompliance,null
+CSA CCM v4 - Cloud Security Alliance Cloud Controls v4,custom,regulatoryCompliance,https://raw.githubusercontent.com/Azure/industry-policy-portfolio/refs/heads/main/ARMTemplates/Cloud_Security_Alliance_Cloud_Controls_v4.json
+ENS - Spain Esquema Nacional de Seguridad High-Level Security Measures,builtin,regulatoryCompliance,null
+ISM - New Zealand Information Security Manual,builtin,regulatoryCompliance,null
+NIS2 (Preview) - Network and Information Security Directive (2022),custom,regulatoryCompliance,https://raw.githubusercontent.com/Azure/industry-policy-portfolio/refs/heads/main/ARMTemplates/Network_and_Information_Security_Directive_2.json
+SOV-Confidential - Sovereignty Baseline - Confidential Policies,builtin,regulatoryCompliance,null
+SOV-Global - Sovereignty Baseline - Global Policies,builtin,regulatoryCompliance,null
