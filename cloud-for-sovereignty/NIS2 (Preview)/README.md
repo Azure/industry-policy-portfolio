@@ -1,17 +1,4 @@
 # NIS2 Custom Policy Initiative PREVIEW
-<table>
-    <tr>
-        <th colspan='2' style='text-align:center'>Policy Initiative</th>
-    </tr>
-    <tr>
-        <td>Network and Information Security Directive 2</td>
-        <td>
-                    <a href=https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Findustry-policy-portfolio%2Frefs%2Fheads%2Fmain%2FARMTemplates%2FNetwork_and_Information_Security_Directive_2.json target=_blank>
-                        <img src=https://aka.ms/deploytoazurebutton/>
-                    </a>
-                    </td>
-    </tr>
-</table>
 
  The NIS2 Directive aims to enhance the security and resilience of essential services and digital infrastructure across the EU by expanding the scope and strengthening requirements for cybersecurity. It builds on the original NIS Directive to address evolving cyber threats more effectively and ensure a higher level of protection. 
  
@@ -26,7 +13,7 @@ The contents of this NIS2 Preview Policy Initiative are:
 
  2. Mapping File. A file that maps the NIS2 Control Objectives to Azure Policies. The mapping file enables the user to identify what Azure Policies are being used to meet NIS2 control objectives. Each Control ID in the mapping files contains the Control Domain, Control Title, Control Description, Azure Policy Name, Azure Policy Reference ID, and Azure Policy Definition ID. An explanation of each Control can be found in the NIS2 documentation.
 
-The Deploy to Azure feature can be utilized to make this policy initiative available for your environment to then be assigned to a specific tenant or resource. 
+ 3. NIS2 can be found at [this location](https://aka.ms/sovereigntypolicynis2).
 
  ### Contributions
  Changes can not be made to the policy initiative directly in this repo. If you find an issue, feel free to open a PR with the proposed fix.
@@ -51,4 +38,3 @@ Any use of third-party trademarks or logos are subject to those third-party's po
 ## Microsoft Legal Notice
 
 **Microsoft Legal Notice:** The Microsoft (MS) Cloud for Sovereignty Policy Portfolio (1) is not designed, intended, or made available as legal services, (2) is not intended to substitute for professional legal counsel or judgment, and (3) should not be used in place of consulting with a qualified professional legal professional for your specific needs. Microsoft makes no warranty that the Microsoft (MS) Cloud for Sovereignty Policy Portfolio is accurate, up-to-date, or complete. You are wholly responsible for ensuring your own compliance with all applicable laws and regulations. 
-

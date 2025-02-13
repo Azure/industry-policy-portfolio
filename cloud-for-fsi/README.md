@@ -4,17 +4,17 @@
         <th colspan='2' style='text-align:center'>Policy Initiative</th>
     </tr>
     <tr>
-        <td>TR-01-Logging.alz policy set definition</td>
+        <td>RE-01-Zone-Replication.alz policy set definition</td>
         <td>
-                    <a href=https://ms.portal.azure.com/#view/Microsoft_Azure_Policy/InitiativeDetail.ReactView/id/%2Fproviders%2FMicrosoft.Authorization%2FpolicySetDefinitions%2F0884adba-2312-4468-abeb-5422caed1038/scopes/undefined>
+                    <a href=https://ms.portal.azure.com/#view/Microsoft_Azure_Policy/InitiativeDetail.ReactView/id/%2Fproviders%2FMicrosoft.Authorization%2FpolicySetDefinitions%2F130fb88f-0fc9-4678-bfe1-31022d71c7d5/scopes/undefined>
                         Built-in
                     </a>
                     </td>
     </tr>
     <tr>
-        <td>RE-01-Zone-Replication.alz policy set definition</td>
+        <td>TR-01-Logging.alz policy set definition</td>
         <td>
-                    <a href=https://ms.portal.azure.com/#view/Microsoft_Azure_Policy/InitiativeDetail.ReactView/id/%2Fproviders%2FMicrosoft.Authorization%2FpolicySetDefinitions%2F130fb88f-0fc9-4678-bfe1-31022d71c7d5/scopes/undefined>
+                    <a href=https://ms.portal.azure.com/#view/Microsoft_Azure_Policy/InitiativeDetail.ReactView/id/%2Fproviders%2FMicrosoft.Authorization%2FpolicySetDefinitions%2F0884adba-2312-4468-abeb-5422caed1038/scopes/undefined>
                         Built-in
                     </a>
                     </td>
